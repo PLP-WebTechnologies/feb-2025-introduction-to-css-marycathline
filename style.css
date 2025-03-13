@@ -1,0 +1,97 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    background-color: blanchedalmond;
+}
+img {
+    max-width: 500px;
+    height: 250px;   
+    width: 800;
+border: #f0f0f0 2px solid;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 50px;
+}
+
+header, footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #8081e7;
+font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+main {
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+section {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    ;
+}
+
+table {
+    border-collapse: collapse; color: black;
+    text-align: center; color: #010108;
+    background-color: hwb(200 84% 12%);
+    width: 200px;
+    padding: 5px;
+    margin: 5px;
+
+}
+
+th, td {
+    border: 1px solid #070505;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #a76f91;
+}
+
+form fieldset {
+    border: 1px solid #ddd;
+    padding: 15px;
+}
+
+form legend {
+    font-weight: bold;
+}
+
+form label {
+    display: inline-block;
+    width: 120px;
+
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form input[type="date"],
+form select {
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+    
+}
+form input[type="submit"] {
+    background-color: #7e5cf8;
+    color: white; 
+    padding: 10px 20px;
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+}
+
+form input[type="submit"]:hover {
+    background-color: #3242d3; 
+}
